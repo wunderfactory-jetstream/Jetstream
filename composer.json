@@ -1,5 +1,5 @@
 {
-    "name": "wunderfactory/jetstream",
+    "name": "jetstream/jetstream",
     "description": "Bootstrap a laravel api",
     "version": "0.0.1",
     "license": "MIT",
