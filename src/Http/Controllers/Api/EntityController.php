@@ -3,12 +3,12 @@
 namespace Jetstream\Jetstream\Http\Controllers\Api;
 
 use Illuminate\Http\Request;
-use LucaDegasperi\OAuth2Server\Facades\Authorizer;
-use Wundership\Account;
 use Jetstream\Jetstream\Http\Controllers\Controller;
 use Jetstream\Jetstream\Http\Controllers\Resource\ResourceController;
 use Jetstream\Jetstream\Http\Requests;
-use Wundership\UUID;
+use LucaDegasperi\OAuth2Server\Facades\Authorizer;
+use Jetstream\Jetstream\Models\Account;
+use Jetstream\Jetstream\Models\UUID;
 
 /**
  * Class EntityController

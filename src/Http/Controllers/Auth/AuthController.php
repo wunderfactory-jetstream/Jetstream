@@ -2,11 +2,11 @@
 
 namespace Jetstream\Jetstream\Http\Controllers\Auth;
 
-use Wundership\User;
-use Validator;
-use Wundership\Http\Controllers\Controller;
-use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
+use Illuminate\Foundation\Auth\ThrottlesLogins;
+use Validator;
+use Jetstream\Jetstream\Http\Controllers\Controller;
+use Wundership\User;
 
 class AuthController extends Controller
 {
