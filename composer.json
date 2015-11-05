@@ -10,15 +10,22 @@
         }
     ],
     "require": {
+        "laravel/framework": "5.1.*",
         "dingo/api": "1.0.x@dev",
         "lucadegasperi/oauth2-server-laravel": "5.0.*@dev"
     },
     "require-dev": {
-        "phpspec/phpspec": "~2.0"
+        "orchestra/testbench": "~3.0",
+        "phpunit/phpunit": "~4.0"
     },
     "autoload": {
         "psr-4": {
             "Jetstream\\Jetstream\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jetstream\\Jetstream\\Tests\\": "tests"
         }
     },
     "minimum-stability": "dev"
