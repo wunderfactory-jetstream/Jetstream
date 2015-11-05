@@ -13,5 +13,13 @@
         "dingo/api": "1.0.x@dev",
         "lucadegasperi/oauth2-server-laravel": "5.0.*@dev"
     },
+    "require-dev": {
+        "phpspec/phpspec": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jetstream\\Jetstream\\": "src"
+        }
+    },
     "minimum-stability": "dev"
 }
