@@ -12,5 +12,6 @@
     "require": {
         "dingo/api": "1.0.x@dev",
         "lucadegasperi/oauth2-server-laravel": "5.0.*@dev"
-    }
+    },
+    "minimum-stability": "dev"
 }
