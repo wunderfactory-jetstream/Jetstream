@@ -1,17 +1,15 @@
 <?php namespace Jetstream\Jetstream\Http\Controllers\Api;
 
 use Illuminate\Database\Eloquent\Relations\HasOne;
-use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use Illuminate\Support\Facades\App;
+use LucaDegasperi\OAuth2Server\Facades\Authorizer;
+use Wundership\Account;
 use Wundership\Exceptions\NotImplementedException;
 use Wundership\GlobalUniqueModel;
 use Wundership\Http\Controllers\Resource\ResourceController;
 use Wundership\Http\Requests;
-use Wundership\Account;
 use Wundership\UUID;
-use LucaDegasperi\OAuth2Server\Facades\Authorizer;
 
 /**
  * Class EntityRelationController.php

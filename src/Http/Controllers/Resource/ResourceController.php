@@ -1,12 +1,12 @@
 <?php
 
-namespace Jetstream\Jetstream\Http\Resource;
+namespace Jetstream\Jetstream\Http\Controllers\Resource;
 
 use Dingo\Api\Exception\StoreResourceFailedException;
 use Dingo\Api\Routing\Helpers;
 use Illuminate\Contracts\Validation\Validator;
 use Illuminate\Http\Request;
-use Wunderfactory\Jetstream\Http\Controllers\Controller;
+use Jetstream\Jetstream\Http\Controllers\Controller;
 
 /**
  * Class ResourceController
@@ -33,7 +33,7 @@ abstract class ResourceController extends Controller
 	/**
 	 * @param mixed $entity
 	 * TODO
-	 * @return \Wundership\Http\Controllers\Resource\ResourceController
+	 * @return \Jetstream\Jetstream\Http\Controllers\Resource\ResourceController
 	 */
 	public static function resolveController($entity)
 	{
