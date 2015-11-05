@@ -1,0 +1,7 @@
+formatter.name: pretty
+suites:
+  package_suite:
+    namespace: Jetstream\Jetstream
+    src_path: src
+    spec_prefix: unit
+    spec_path: tests
