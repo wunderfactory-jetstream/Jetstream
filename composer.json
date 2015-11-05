@@ -1,0 +1,16 @@
+{
+    "name": "wunderfactory/jetstream",
+    "description": "Bootstrap a laravel api",
+    "version": "0.0.1",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Moritz Ewert",
+            "email": "moritz.ewert@wunderfactory.de"
+        }
+    ],
+    "require": {
+        "dingo/api": "1.0.x@dev",
+        "lucadegasperi/oauth2-server-laravel": "5.0.*@dev"
+    }
+}
